@@ -1,0 +1,11 @@
+p,#jsi-name,#jsi-msg,#jsi-button,#jsi-board,li,dsdbutton{
+text-align:center;
+}
+
+.center{
+text-align:center;
+}
+
+.border{
+border-top:#E3E7EA 1px solid;
+}

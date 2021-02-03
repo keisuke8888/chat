@@ -12,14 +12,14 @@ CHAT.fire = {
     this.$board = $('#jsi-board');
     this.$button = $('#jsi-button');
 
-    //データベースと接続する。各自登録時に出たコードに書き換え。
+    //データベースと接続する
     this.chatDataStore = new Firebase('https://soft-da461-default-rtdb.firebaseio.com/');
   },
 
   bindEvent:function(){
     var self = this;
     this.$button.on('click',function(){
-      self.sendMsg();
+      self.sendMsg(); //メッセージを送る
     });
 
     //DBの「talks」から取り出す
